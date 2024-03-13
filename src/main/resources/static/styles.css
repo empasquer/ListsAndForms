@@ -48,22 +48,30 @@ tbody > tr:nth-child(even) {
     color: darkgrey;
 }
 
-fieldset {
-    display: flex;
-    flex-direction: column;
-
-}
-
-#form {
- display: flex;
-    width: 100%;
-    place-self: center;
-}
 
 form {
     display: flex;
     flex-direction: column;
+    place-items: center;
+}
 
-    width: 300px;
-    padding: 2rem;
+form div {
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    padding: 3rem;
+    background-color: lightblue;
+}
+
+form #button {
+    margin-top: 2rem;
+}
+
+input {
+    width: 25ch;
 }
