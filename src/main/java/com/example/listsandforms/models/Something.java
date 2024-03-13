@@ -5,6 +5,9 @@ public class Something {
     private String title;
     private double duration;
 
+    public Something() {
+    }
+
     public Something(int id, String title, double duration) {
         this.id = id;
         this.title = title;
